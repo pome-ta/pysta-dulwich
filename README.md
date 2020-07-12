@@ -16,6 +16,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
 dulwich = __import__('dulwich')
 ```
 
-これで、ディレクトリからimport している(兄弟の階層の場合)
+これでをメインファイルに記載して、ディレクトリからimport している(兄弟の階層の場合)
 
+> 3系の書き方としてどうなのかな？🤔
 
